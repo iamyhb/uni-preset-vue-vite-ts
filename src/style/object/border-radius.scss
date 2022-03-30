@@ -1,10 +1,10 @@
-@for $i from 1 through 10 {
-  [radius#{$i}] { 
-    border-radius: #{$i}Px;
+@for $i from 10 through 20 {
+  .radius-#{$i} {
+    border-radius: #{$i}rpx;
     overflow: hidden;
   }
 }
 
-[circle] {
+.circle {
   border-radius: 100rem;
 }

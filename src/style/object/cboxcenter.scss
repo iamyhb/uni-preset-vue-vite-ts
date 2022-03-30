@@ -1,0 +1,3 @@
+.cboxcenter{
+  @include box-center($justify: center, $align: center);
+}

@@ -1,5 +1,5 @@
-@for $i from 13 through 50 {
-  [fz#{$i}] {
+@for $i from 20 through 50 {
+  .fz-#{$i} {
     font-size: #{$i}rpx;
   }
 }

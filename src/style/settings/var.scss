@@ -1,19 +1,19 @@
 /* Color
 ----------------------- */
-$color-primary: #FF5777;
+$color-one: #FF5777;
 $color-white: #FFFFFF;
 $color-black: #000000;
 
-$color-text-primary: #333333;
-$color-text-secondary: #666666;
-$color-text-tertiary: $color-white;
-$color-text-quaternary: $color-primary;
+$color-text-one: #333333;
+$color-text-two: #666666;
+$color-text-three: $color-white;
+$color-text-four: $color-one;
 
 
 
-$background-color-primary: #F1F1F1;
-$background-color-secondary: $color-white;
-$background-color-tertiary: $color-primary;
+$background-color-one: #F1F1F1;
+$background-color-two:$color-one;
+$background-color-white: $color-white;
 
 /* Border
 ----------------------- */

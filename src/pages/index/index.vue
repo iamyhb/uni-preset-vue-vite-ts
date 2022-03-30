@@ -1,5 +1,5 @@
 <template>
-  <view class="aab"> <my-box-center>1111</my-box-center></view>
+  <view class="aab cboxcenter"> 111</view>
 
   <view class="demo-uni-row">
     <uni-row>
@@ -12,6 +12,10 @@
         <view class="light" @click="add"></view>
       </uni-col>
     </uni-row>
+  </view>
+  <view class="text csinglecenter bg-one radius-10 decoration fc-four fz-40 mh-10">
+    <view class="text__logo">123</view>
+    <text class="text__text">123</text>
   </view>
 </template>
 
@@ -38,5 +42,8 @@ const add = () => {
 .light {
   background-color: yellow;
   height: 100rpx;
+}
+@include b(text) {
+  @include dimensions(1000rpx, 1000rpx);
 }
 </style>

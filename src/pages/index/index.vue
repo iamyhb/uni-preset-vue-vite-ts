@@ -16,7 +16,7 @@
 </template>
 
 <script lang="ts" setup>
-import MyBoxCenter from '../../components/layout/MyBoxCenter'
+import MyBoxCenter from '../../components/layout/MyBoxCenter.vue'
 
 import { useCounterStore } from '../../store/store'
 

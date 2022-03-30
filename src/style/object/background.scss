@@ -4,7 +4,7 @@
   }
 }
 
-@each $style in (one $background-color-one, white $background-color-white, two $background-color-two) {
+@each $style in (one $background-color-one, two $background-color-two, three $background-color-three) {
   .bg-#{nth($style, 1)} {
     background-color: #{nth($style, 2)};
   }
